@@ -1,4 +1,5 @@
 import React, { useRef, useState } from "react";
+import VideoFooter from "./components/footer/VideoFooter";
 import "./video.css";
 
 function Video() {
@@ -24,6 +25,8 @@ function Video() {
         loop
         src="https://assets.designs.ai/videos/videomaker_sample3.mp4"
       ></video>
+      {/*Side Bar */}
+      <VideoFooter/>
     </div>
   );
 }
